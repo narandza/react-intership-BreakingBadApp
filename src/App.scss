@@ -1,0 +1,53 @@
+@import "./styles/variables.scss";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: lightgray;
+  position: relative;
+}
+
+main {
+  position: relative;
+  flex-grow: 1;
+}
+
+header,
+main,
+footer {
+  flex-shrink: 0;
+  color: $white-0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $white-0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $inter;
+}
+
+p {
+  font-family: $inter;
+  font-size: 14px;
+}

@@ -1,0 +1,76 @@
+@import "../../styles/variables.scss";
+
+.header {
+  position: sticky;
+  z-index: $component-z-index;
+  top: 0px;
+  display: flex;
+  justify-content: flex-start;
+  padding: $header-padding;
+  transition: background-color $transition;
+
+  .logo {
+    display: flex;
+    width: 98px;
+    height: 55px;
+    padding-right: 58px;
+  }
+
+  .mainNavigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: $inter;
+    line-height: 19px;
+    font-size: 16px;
+    gap: 20px;
+
+    .navLink {
+      padding-right: 10px;
+
+      &:hover {
+        color: $tertiary-color;
+        transform: scale(1.2);
+        transition: $transition;
+      }
+    }
+  }
+
+  &.active {
+    background: $header-background;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: $header-background-700px;
+    padding: 10px;
+
+    .logo {
+      margin-bottom: 20px;
+      padding-right: 0;
+    }
+
+    .mainNavigation {
+      max-width: 50%;
+      flex-direction: column;
+
+      .navLink {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 575px) {
+  .header {
+    padding: 0px 50px;
+
+    .logo {
+      padding-top: 20px;
+    }
+  }
+}

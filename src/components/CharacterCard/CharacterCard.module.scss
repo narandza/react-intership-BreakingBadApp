@@ -1,0 +1,103 @@
+@import "../../styles/variables.scss";
+
+.characterCard {
+  max-width: 243px;
+  max-height: 284px;
+  border-radius: 17px;
+  background: $white-0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .cardTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $primary-color;
+    width: 243px;
+    height: 122px;
+    border-radius: 15px 15px 0 0;
+
+    .topHeader {
+      padding: 15px;
+      display: flex;
+      flex-direction: row;
+
+      .heading {
+        font-family: $roboto;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+      }
+
+      .favourites {
+        position: absolute;
+        top: 17px;
+        right: 13px;
+        width: 19px;
+        height: 17px;
+        cursor: pointer;
+
+        .favouritesIconBlank:hover {
+          filter: $filter-red;
+          opacity: 0.5;
+        }
+
+        .favouritesIconFill:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .cardImage {
+      position: absolute;
+      top: 57px;
+      width: 130px;
+      height: 130px;
+      border-radius: 217px;
+      object-fit: cover;
+    }
+
+    .imagePositionTop {
+      object-position: top;
+    }
+  }
+
+  .cardBottom {
+    height: 162px;
+    border-radius: 0 0 17px 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $poppins;
+
+    .fullName {
+      color: $black-0;
+      padding-top: 72px;
+      font-size: 21px;
+      line-height: 31px;
+      text-align: center;
+    }
+
+    .jobTitle {
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 15px;
+      text-align: center;
+
+      .jobTitleItem {
+        color: $black-0;
+        display: block;
+      }
+    }
+  }
+
+  &:hover {
+    .cardImage {
+      transform: scale(1.03);
+      transition: $transition;
+    }
+  }
+}

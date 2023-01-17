@@ -1,0 +1,52 @@
+@import "../../styles/variables.scss";
+
+.accordion {
+  padding: $accordion-padding;
+  margin: $accordion-margin;
+  border-radius: 15px;
+  max-height: 0;
+  transition: all $transition;
+
+  &.background {
+    max-height: 100%;
+    background: $accordion-background;
+  }
+
+  .category {
+    box-sizing: border-box;
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+
+    .categoryTitle {
+      line-height: $standard-line-height;
+      letter-spacing: $standard-letter-spacing;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 34px;
+    }
+
+    .collapseArrow {
+      transition: $transition;
+
+      &.collapsed {
+        height: auto;
+        transition: $transition;
+        transform: rotate(-180deg);
+      }
+    }
+  }
+
+  .accordionConent {
+    visibility: visible;
+    display: block;
+    opacity: 1;
+
+    &.collapsed {
+      visibility: hidden;
+      display: none;
+      opacity: 0;
+      transition: $visibility-transition;
+    }
+  }
+}

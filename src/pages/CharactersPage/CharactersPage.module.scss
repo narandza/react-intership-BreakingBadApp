@@ -1,0 +1,140 @@
+@import "../../styles/variables.scss";
+
+.charactersPage {
+  min-height: 100vh;
+
+  .charactersPageBackground {
+    background: $smoke-background-image;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -20vh;
+    left: 0;
+    height: calc(100% + 20vh);
+    width: 100%;
+    z-index: 0;
+  }
+
+  .charactersPageContent {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+    .contentTop {
+      display: flex;
+      justify-content: space-around;
+
+      .contentTopLeft {
+        display: flex;
+        gap: 15px;
+
+        .topHeading {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 46px;
+          line-height: $standard-line-height;
+          letter-spacing: $standard-letter-spacing;
+          text-transform: capitalize;
+        }
+        .randomButtonLink {
+          align-self: center;
+
+          .randomButton {
+            border: none;
+            border-radius: 16px;
+            padding: 4px 20px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 31px;
+            text-align: center;
+            text-transform: capitalize;
+            color: $black-0;
+
+            &:hover {
+              cursor: pointer;
+              transform: scale(1.1);
+              transition: $transition;
+            }
+
+            &:disabled {
+              cursor: auto;
+              transform: scale(1);
+              color: darkslategray;
+            }
+          }
+        }
+      }
+
+      .contentTopRight {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+      }
+    }
+
+    .contentMain {
+      padding: 20px 400px;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      gap: 50px;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+    }
+
+    .contentBottom {
+      margin: 50px auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .nothingToShow {
+      text-transform: capitalize;
+      grid-column-end: 3;
+      padding-top: 3em;
+      font-size: 37px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .charactersPage {
+    .charactersPageContent {
+      .contentTop {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .contentMain {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 200px;
+      }
+
+      .contentBottom {
+        .pagination {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .charactersPage {
+    .charactersPageContent {
+      .contentTop {
+        .contentTopLeft {
+          flex-direction: column;
+          padding-bottom: 10px;
+        }
+      }
+
+      .contentMain {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+.appearanceTable {
+  max-width: 75%;
+  min-height: 70px;
+  background: $white-0;
+  border-radius: 4px;
+  border-collapse: collapse;
+
+  .tableBody {
+    text-align: center;
+    font-family: $inter;
+
+    .trTop {
+      background: $tertiary-color;
+
+      .tdTop {
+        border: $td-border;
+        border-top: 0;
+        border-left: 0;
+        width: calc(100% / 6);
+        padding: 10px;
+
+        &.tdTop:last-child {
+          border-right: 0;
+        }
+      }
+    }
+
+    .trBottom {
+      color: $black-0;
+
+      .tdBottom {
+        border: $td-border;
+        border-bottom: 0;
+        border-left: 0;
+        padding: 10px;
+
+        &.tdBottom:last-child {
+          border-right: 0;
+        }
+      }
+    }
+  }
+}

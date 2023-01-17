@@ -1,0 +1,85 @@
+// colors
+$primary-color: #3d7328;
+$secondary-color: #094b3d;
+$tertiary-color: #00a638;
+$white-0: #ffffff;
+$black-0: #000000;
+$second-home-page-h2: #6c6c6c;
+$search-border-color: #e0e0e0;
+$pagination-item-border: #dfe3e8;
+$pagination-text-color: #212b36;
+$pagination-disabled-background: #919eab;
+$status-alive-color: #06c647;
+$status-deceased-color: #ff0000;
+$filter-red: invert(21%) sepia(71%) saturate(7468%) hue-rotate(356deg)
+  brightness(97%) contrast(118%);
+
+// GOOGLE FONTS
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-600";
+  src: url(../assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+// font variables
+$inter: "Inter", sans-serif;
+$roboto: "Roboto", sans-serif;
+$poppins: "Poppins-600", sans-serif;
+
+// horizontal line
+$horizontal-line: 3px solid #fbfbfb;
+
+// header background
+$header-background: rgba(0, 0, 0, 0.9);
+$header-background-700px: #000;
+
+// shadow
+$shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+
+// transition
+$transition: 0.3s ease-in-out;
+$visibility-transition: display 0.2s, opacity 0.2s;
+$ease-out-transition: 0.3s ease-out;
+
+// backgrounds
+$smoke-background-image: url(../assets/images/first-home-page-background.png);
+$rv-background-image: url(../assets/images/second-home-page-background.png);
+$accordion-background: rgba(217, 217, 217, 0.19);
+
+// z-index
+$component-z-index: 20;
+
+// paddings
+$header-padding: 30px 50px;
+$content-card-padding: 50px 150px;
+$home-btn-padding: 10px 20px;
+$favourites-page-heading-padding: 40px 0px 0px 0px;
+$favourites-page-cards-padding: 20px 0;
+$accordion-padding: 13px 37px;
+
+// margins
+$accordion-margin: 0px -37px 20px;
+$view-character-margin: 0px 170px 50px;
+$view-character-margin-900: 0px 120px 50px;
+$view-character-margin-700: 0px 50px 50px;
+
+// transforms
+$card-transform-700: scale(0.8);
+
+// line height
+$standard-line-height: 157%;
+
+// letter spacing
+$standard-letter-spacing: 0.05em;
+
+// borders
+$td-border: 1px solid #b9b9b9;

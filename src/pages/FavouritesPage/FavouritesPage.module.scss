@@ -1,0 +1,119 @@
+@import "../../styles/variables.scss";
+
+.favouritesPage {
+  min-height: 75vh;
+
+  .favouritesPageBackground {
+    background: $smoke-background-image;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -20vh;
+    left: 0;
+    height: calc(100% + 20vh);
+    width: 100%;
+    z-index: 0;
+  }
+
+  .favouritesPageContent {
+    position: relative;
+    max-width: 100%;
+    z-index: 2;
+    line-height: $standard-line-height;
+    letter-spacing: $standard-letter-spacing;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 30px 200px;
+
+    .contentHeading {
+      padding: $favourites-page-heading-padding;
+      font-weight: 600;
+      font-size: 46px;
+    }
+
+    .contentMain {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .mainCards {
+        padding: $favourites-page-cards-padding;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 50px;
+      }
+
+      .emptyContent {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 27px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1560px) {
+  .favouritesPage {
+    .favouritesPageContent {
+      .contentMain {
+        .mainCards {
+          gap: 35px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .favouritesPage {
+    .favouritesPageContent {
+      margin: 20px 70px 20px 150px;
+
+      .contentMain {
+        .mainCards {
+          justify-content: space-between;
+          align-items: center;
+          gap: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .favouritesPage {
+    .favouritesPageContent {
+      align-items: center;
+      margin: 15px 100px;
+
+      .contentMain {
+        align-items: center;
+
+        .mainCards {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .favouritesPage {
+    .favouritesPageContent {
+      margin: 20px 50px;
+      align-items: center;
+
+      .contentMain {
+        align-items: center;
+
+        .mainCards {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

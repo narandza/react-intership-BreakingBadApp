@@ -1,0 +1,663 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Walter White",
+      "birthday": "11-07-1975",
+      "occupation": [
+        "Meth King Pin"
+      ],
+      "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_walter-white-lg.jpg",
+      "status": "Deceased",
+      "appearance": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nickname": "Heisenberg",
+      "portrayed": "Bryan Cranston",
+      "quote": "I am the one who knocks!"
+    },
+    {
+      "id": 2,
+      "name": "Jesse Pinkman",
+      "birthday": "12-04-1988",
+      "occupation": [
+        "Meth King Pin",
+        "Drug Manufacturer"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/9/95/JesseS5.jpg/revision/latest?cb=20120620012441",
+      "status": "Alive",
+      "appearance": [
+        1,
+        2,
+        3
+      ],
+      "nickname": "Captain Cook",
+      "portrayed": "Aaron Paul",
+      "quote": "Yeah science!"
+    },
+    {
+      "id": 3,
+      "name": "Skyler White",
+      "birthday": "04-07-1955",
+      "occupation": [
+        "Wife",
+        "Accountant"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/3/33/Skyler_S5b.jpg/revision/latest?cb=20130717044318",
+      "status": "Alive",
+      "appearance": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nickname": "Skyler",
+      "portrayed": "Anna Gunn",
+      "quote": "We've come this far... what's one more?"
+    },
+    {
+      "id": 4,
+      "name": "Hank Schrader",
+      "birthday": "11-11-1965",
+      "occupation": [
+        "Officer",
+        "DEA Agent",
+        "ASAC of the Albuquerque"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/b/b7/HankS5.jpg/revision/latest?cb=20120620014136",
+      "status": "Deceased",
+      "appearance": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nickname": "Hank",
+      "portrayed": "Dean Norris",
+      "quote": "It's easy money - 'til we catch you."
+    },
+    {
+      "id": 5,
+      "name": "Marie Schrader",
+      "birthday": "01-05-1981",
+      "occupation": [
+        "Wife",
+        "Post Worker"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/4/4b/MarieS5.jpg/revision/latest?cb=20120620014705",
+      "status": "Alive",
+      "appearance": [
+        1,
+        5
+      ],
+      "nickname": "Marie",
+      "portrayed": "Julia Bronxton",
+      "quote": "Pain is weakness leaving your body."
+    },
+    {
+      "id": 6,
+      "name": "Walter White Jr.",
+      "birthday": "11-05-1977",
+      "occupation": [
+        "Student"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/e/e7/WaltJrS5.jpg/revision/latest?cb=20221021194031",
+      "status": "Alive",
+      "appearance": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nickname": "Walter Jr",
+      "portrayed": "Dave Foxton",
+      "quote": "Do I look like a skater?"
+    },
+    {
+      "id": 7,
+      "name": "Gustavo Fring",
+      "birthday": "09-07-1988",
+      "occupation": [
+        "Meth King Pin",
+        "Los Pollos Hermanos co-founder and entrepreneur"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/5/54/BCS_S3_GusFring.jpg/revision/latest?cb=20170327185354",
+      "status": "Deceased",
+      "appearance": [
+        1,
+        2,
+        3
+      ],
+      "nickname": "Chicken Man",
+      "portrayed": "Giancarlo Esposito",
+      "quote": "Never make the same mistake twice."
+    },
+    {
+      "id": 8,
+      "name": "Saul Goodman",
+      "birthday": "05-08-1948",
+      "occupation": [
+        "Lawyer",
+        "Criminal"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/8/8e/BCS_S6_Portrait_Jimmy.jpg/revision/latest?cb=20220802210840",
+      "status": "Alive",
+      "appearance": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "nickname": "The Guy",
+      "portrayed": "Bob Odenkirk",
+      "quote": "Don't drink and drive, but when you do, call Saul."
+    },
+    {
+      "id": 9,
+      "name": "Lydia Rodarte-Quayle",
+      "birthday": "11-04-1959",
+      "occupation": [
+        "High School Chemistry Teacher",
+        "Meth King Pin"
+      ],
+      "img": "https://static.wikia.nocookie.net/villains/images/8/80/1_Laura_Fraser.jpg/revision/latest/scale-to-width-down/1000?cb=20180707002655",
+      "status": "Deceased",
+      "appearance": [
+        3,
+        4,
+        5
+      ],
+      "nickname": "Lydia",
+      "portrayed": "Dianna Bulovia",
+      "quote": "Is it done? Is he gone?"
+    },
+    {
+      "id": 10,
+      "name": "Todd Alquist",
+      "birthday": "09-07-1958",
+      "occupation": [
+        "Hitman",
+        "Criminal"
+      ],
+      "img": "https://static.wikia.nocookie.net/villains/images/2/2f/Toddy.jpg/revision/latest?cb=20210524043353",
+      "status": "Deceased",
+      "appearance": [
+        4,
+        5
+      ],
+      "nickname": "Todd",
+      "portrayed": "Billy Crow",
+      "quote": "Just so you know, this isn't personal."
+    },
+    {
+      "id": 11,
+      "name": "Steven Gomez",
+      "birthday": "09-07-1958",
+      "occupation": [
+        "DEA Agent",
+        "Officer"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/6/65/Gomie_2009.png/revision/latest?cb=20220822191637",
+      "status": "Alive",
+      "appearance": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "nickname": "Stevie",
+      "portrayed": "Clark Cranwood",
+      "quote": "Yeah, yeah. I'm glad to see you still have your twisted sense of humor."
+    },
+    {
+      "id": 12,
+      "name": "Skinny Pete",
+      "birthday": "09-07-1958",
+      "occupation": [
+        "None"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/2/2d/Cast_bb_800x600_skinny-pete.jpg/revision/latest?cb=20191101152923",
+      "status": "Alive",
+      "appearance": [
+        1,
+        2,
+        3
+      ],
+      "nickname": "Pete",
+      "portrayed": "Will Wacko",
+      "quote": "The whole thing feels kinda shady, morality-wise."
+    },
+    {
+      "id": 13,
+      "name": "Ted Beneke",
+      "birthday": "09-07-1958",
+      "occupation": [
+        "Accountant",
+        "CEO"
+      ],
+      "img": "http://images.amcnetworks.com/shared/amcn/2020-10/cast_bb_700x1000_todd-beneke-lg.jpg",
+      "status": "Deceased",
+      "appearance": [
+        1,
+        2
+      ],
+      "nickname": "Ted",
+      "portrayed": "Tony Killwood",
+      "quote": "Huell? Who's Huell?"
+    },
+    {
+      "id": 14,
+      "name": "Brandon Mayhew",
+      "birthday": "09-07-1958",
+      "occupation": [
+        "None"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/5/5b/Cast_bb_800x600_badger.jpg/revision/latest?cb=20191101152834",
+      "status": "Alive",
+      "appearance": [
+        1,
+        4,
+        5
+      ],
+      "nickname": "Badger",
+      "portrayed": "Clark Hood",
+      "quote": "Hey dude, are these bullet holes?"
+    },
+    {
+      "id": 15,
+      "name": "Huell Babineaux",
+      "birthday": "09-01-1948",
+      "occupation": [
+        "Bodyguard",
+        "Security",
+        "Bouncer"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/d/d4/Huell_infobox.png/revision/latest/scale-to-width-down/1000?cb=20220807121123",
+      "status": "Alive",
+      "appearance": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nickname": "Big Huell",
+      "portrayed": "Tyrone Bollot",
+      "quote": "You're a lawyer. You make good money, right?"
+    },
+    {
+      "id": 16,
+      "name": "George Merkert",
+      "birthday": "09-03-1955",
+      "occupation": [
+        "Assistant",
+        "DEA Field Officer"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/5/5f/Merkert_2008.png/revision/latest?cb=20220621092021",
+      "status": "Alive",
+      "appearance": [
+        1,
+        2,
+        3
+      ],
+      "nickname": "Georgie",
+      "portrayed": "Gregory Williams",
+      "quote": "Know why sharks are at the top of the food chain, Hank?"
+    },
+    {
+      "id": 17,
+      "name": "Tyrus Kitt",
+      "birthday": "12-12-1975",
+      "occupation": [
+        "Enforcer",
+        "Bodyguard"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/a/af/TyrusKitt.jpg/revision/latest?cb=20221110070258",
+      "status": "Deceased",
+      "appearance": [
+        1,
+        5
+      ],
+      "nickname": "The Man",
+      "portrayed": "Ray Campbell",
+      "quote": "Gotta make it look real."
+    },
+    {
+      "id": 18,
+      "name": "Andrea Cantillo",
+      "birthday": "03-02-1962",
+      "occupation": [
+        "Housewife"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/6/68/Andrea1.jpg/revision/latest?cb=20210918170135",
+      "status": "Deceased",
+      "appearance": [
+        1,
+        5
+      ],
+      "nickname": "Andrea",
+      "portrayed": "Emily Rios",
+      "quote": "You gonna come in my house and judge me?"
+    },
+    {
+      "id": 19,
+      "name": "Carmen Molina",
+      "birthday": "01-02-1959",
+      "occupation": [
+        "High School Teacher",
+        "Principal"
+      ],
+      "img": "https://img.sharetv.com/shows/characters/large/breaking_bad.carmen_molina.jpg",
+      "status": "Alive",
+      "appearance": [
+        1,
+        2,
+        3
+      ],
+      "nickname": "Carm",
+      "portrayed": "Carmen Molina",
+      "quote": "Whatever you are, be a good one."
+    },
+    {
+      "id": 20,
+      "name": "Jane Margolis",
+      "birthday": "08-05-1985",
+      "occupation": [
+        "Sales Assistant"
+      ],
+      "img": "http://images.amcnetworks.com/shared/amcn/2020-10/cast_bb_700x1000_jane-margolis-lg.jpg",
+      "status": "Alive",
+      "appearance": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nickname": "Janie",
+      "portrayed": "Taylor Widgens",
+      "quote": "Aww, that was so sweet, I think I threw up in my mouth a little bit."
+    },
+    {
+      "id": 21,
+      "name": "Hector Salamanca",
+      "birthday": "11-12-1971",
+      "occupation": [
+        "Drug Kingpin",
+        "Cartel Boss"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/3/34/TioSalamanca.jpg/revision/latest?cb=20100516195603",
+      "status": "Deceased",
+      "appearance": [
+        1,
+        2
+      ],
+      "nickname": "Don",
+      "portrayed": "Philipe Castillo",
+      "quote": "La familia es todo (Family is all)."
+    },
+    {
+      "id": 22,
+      "name": "Gale Boetticher",
+      "birthday": "04-04-1952",
+      "occupation": [
+        "Chemistry Teacher",
+        "Drug Manufacturer"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/4/4c/Cast_bb_800x600_gale-boetticher.jpg/revision/latest?cb=20191101152252",
+      "status": "Deceased",
+      "appearance": [
+        4
+      ],
+      "nickname": "Gale",
+      "portrayed": "Tolbar Volin",
+      "quote": "At least with me, they're getting exactly what they pay for."
+    },
+    {
+      "id": 23,
+      "name": "Jack Welker",
+      "birthday": "01-07-1981",
+      "occupation": [
+        "Drug Lord",
+        "Cartel Boss"
+      ],
+      "img": "https://static.wikia.nocookie.net/near_pure_evil/images/e/e3/JackWelker.png/revision/latest?cb=20220923160032",
+      "status": "Deceased",
+      "appearance": [
+        5
+      ],
+      "nickname": "Jackie",
+      "portrayed": "Kyle Dolba",
+      "quote": "You want us to do this job? Do it right? That's the price."
+    },
+    {
+      "id": 24,
+      "name": "Kenny",
+      "birthday": "02-04-1944",
+      "occupation": [
+        "Store Owner",
+        "Cartel Boss"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/3/3a/Kenny5x13.png/revision/latest?cb=20130912225935",
+      "status": "Alive",
+      "appearance": [
+        4,
+        5
+      ],
+      "nickname": "Ken",
+      "portrayed": "Brent Carlson",
+      "quote": "He's a rat. That's all you need to know."
+    },
+    {
+      "id": 25,
+      "name": "Leonel Salamanca",
+      "birthday": "04-02-1942",
+      "occupation": [
+        "Drug Lord",
+        "Meth King Pin"
+      ],
+      "img": "https://static.tvmaze.com/uploads/images/original_untouched/164/412470.jpg",
+      "status": "Deceased",
+      "appearance": [
+        1,
+        2
+      ],
+      "nickname": "Don Leonal",
+      "portrayed": "Loteo Balint",
+      "quote": "Finish him."
+    },
+    {
+      "id": 26,
+      "name": "Juan Bolsa",
+      "birthday": "04-02-1942",
+      "occupation": [
+        "Drug Lord",
+        "Meth King Pin"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/0/04/Juan_Bolsa_2009.png/revision/latest?cb=20221023144229",
+      "status": "Deceased",
+      "appearance": [
+        1,
+        2,
+        3
+      ],
+      "nickname": "Don Juan",
+      "portrayed": "Javier Grajeda",
+      "quote": "I'll weather this, I always do."
+    },
+    {
+      "id": 27,
+      "name": "Pamela Orbic",
+      "birthday": "04-02-1942",
+      "occupation": [
+        "Attorney"
+      ],
+      "img": "https://static.wikia.nocookie.net/breakingbad/images/8/8d/Pamela3x1.jpg/revision/latest/scale-to-width-down/1000?cb=20131023210659",
+      "status": "Deceased",
+      "appearance": [
+        1
+      ],
+      "nickname": "Pamela",
+      "portrayed": "Julie Dretzin",
+      "quote": "The only real mistake is the one from which we learn nothing."
+    }
+  ],
+  "quotes": [
+    {
+      "id": 1,
+      "quote": "Sometimes it just feels better not to talk. At All. About Anything. To Anyone.",
+      "author": "Walter White"
+    },
+    {
+      "id": 2,
+      "quote": "I’m not saying it’s not bad. It’s bad. But it could be worse.",
+      "author": "Saul Goodman"
+    },
+    {
+      "id": 3,
+      "quote": "You don’t want a criminal lawyer. You want a criminal lawyer.",
+      "author": "Jesse Pinkman"
+    },
+    {
+      "id": 4,
+      "quote": "No more half-measures, Walter.",
+      "author": "Mike Ehrmantraut"
+    },
+    {
+      "id": 5,
+      "quote": "Some people are immune to good advice.",
+      "author": "Walter White"
+    },
+    {
+      "id": 6,
+      "quote": "Since when do vegans eat fried chicken?",
+      "author": "Hank Schrader"
+    },
+    {
+      "id": 7,
+      "quote": "Did you know that there's an acceptable level of rat turds that can go into candy bars? It's the government, jack. Even government doesn't care that much about quality. You know what is okay to put in hot dogs? Huh? Pig lips and *beep* But I say, hey, have at it bitches 'cause I love hot dogs.",
+      "author": "Jesse Pinkman"
+    },
+    {
+      "id": 8,
+      "quote": "Clearly, his taste in women is the same as his taste in lawyers.",
+      "author": "Saul Goodman"
+    },
+    {
+      "id": 9,
+      "quote": "We're done when I say we're done.",
+      "author": "Walter White"
+    },
+    {
+      "id": 10,
+      "quote": "The one that says if I can't kill you, you'll sure as *beep* wish you were dead.",
+      "author": "Jesse Pinkman"
+    },
+    {
+      "id": 11,
+      "quote": "All I can do is wait... for the cancer to come back.",
+      "author": "Skyler White"
+    },
+    {
+      "id": 12,
+      "quote": "May his death satisfy you.",
+      "author": "Gustavo Fring"
+    },
+    {
+      "id": 13,
+      "quote": "What I came to realise is that fear, that's the worst of it. That's the real enemy. So, get up, get out in the real world and you kick that bastard as hard you can right in the teeth.",
+      "author": "Walter White"
+    },
+    {
+      "id": 14,
+      "quote": "Everyone sounds like Meryl Streep with a gun to their head.",
+      "author": "Mike Ehrmantraut"
+    },
+    {
+      "id": 15,
+      "quote": "The thing is, if you just do stuff and nothing happens, what's it all mean? What's the point? Oh right, this whole thing is about self-acceptance.",
+      "author": "Jesse Pinkman"
+    },
+    {
+      "id": 16,
+      "quote": "Did you just bring a bomb into a hospital?",
+      "author": "Jesse Pinkman"
+    },
+    {
+      "id": 17,
+      "quote": "You little bastard.",
+      "author": "Walter White"
+    },
+    {
+      "id": 18,
+      "quote": "You need to stop focusing on the darkness behind you. The past is the past. Nothing can change what we’ve done.",
+      "author": "Walter White"
+    },
+    {
+      "id": 19,
+      "quote": "My name is ASAC Schrader, and you can go f*ck yourself.",
+      "author": "Hank Schrader"
+    },
+    {
+      "id": 20,
+      "quote": "I am not in danger, Skyler. I AM the danger!",
+      "author": "Walter White"
+    },
+    {
+      "id": 21,
+      "quote": "Keys, scumbag. It's the universal symbol for keys.",
+      "author": "Mike Ehrmantraut"
+    },
+    {
+      "id": 22,
+      "quote": "Fire in the hole, bitch!",
+      "author": "Jesse Pinkman"
+    },
+    {
+      "id": 23,
+      "quote": "Jesus! Just grow some fucking balls!",
+      "author": "Walter White"
+    },
+    {
+      "id": 24,
+      "quote": "Don't bullshit a bullshitter.",
+      "author": "Walter White"
+    },
+    {
+      "id": 25,
+      "quote": "Stop acting like such a baby.",
+      "author": "Walter White"
+    },
+    {
+      "id": 26,
+      "quote": "If that’s true, if you don’t know who I am, then maybe your best course… would be to tread lightly.",
+      "author": "Walter White"
+    },
+    {
+      "id": 27,
+      "quote": "Someone has to protect this family from the man who protects this family.",
+      "author": "Skyler White"
+    },
+    {
+      "id": 28,
+      "quote": "Then why don't you just frickin die, already?",
+      "author": "Walter White Jr"
+    },
+    {
+      "id": 29,
+      "quote": "The Universe is Random. Not Inevitable. It's simple Chaos.",
+      "author": "Walter White"
+    },
+    {
+      "id": 30,
+      "quote": "Walter Jr., you're my big man. There are going to be some things that you'll come to learn about me in the next few days. But just know that no matter how it may look, I only had you in my heart. Goodbye!",
+      "author": "Walter White"
+    }
+  ]
+}

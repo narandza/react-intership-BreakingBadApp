@@ -1,0 +1,143 @@
+@import "../../styles/variables.scss";
+
+.firstHomePage {
+  height: 90vh;
+
+  .firstHomePageBackground {
+    background: $smoke-background-image;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -30vh;
+    left: 0;
+    height: 120vh;
+    width: 100%;
+
+    .backgroundImage {
+      position: absolute;
+      top: 35vh;
+      right: 0;
+      background: url(../../assets/images/first-home-page-background-content.png);
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      background-size: contain;
+      height: 85vh;
+      width: 50%;
+    }
+  }
+
+  .firstHomePageContent {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    top: -110vh;
+
+    .contentItem {
+      padding: $content-card-padding;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .itemHeading {
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 156%;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        text-shadow: $shadow;
+      }
+
+      .itemContent {
+        width: 50%;
+        font-family: $inter;
+        font-size: 17px;
+        line-height: 35px;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-shadow: $shadow;
+      }
+
+      .itemLinks {
+        margin-top: 20px;
+        display: flex;
+        gap: 15px;
+        text-align: center;
+        align-items: center;
+
+        .linkButton {
+          display: flex;
+          justify-content: center;
+          font-family: $inter;
+          font-size: 18px;
+          background: $secondary-color;
+          padding: $home-btn-padding;
+          box-shadow: $shadow;
+          border-radius: 18px;
+
+          &:hover {
+            background: $tertiary-color;
+            transform: scale(1.1);
+            transition: $transition;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .firstHomePage {
+    .firstHomePageContent {
+      .contentItem {
+        padding: 0px 30px;
+
+        .itemContent {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .firstHomePage {
+    .firstHomePageContent {
+      .contentItem {
+        padding-top: 20px;
+
+        .itemHeading {
+          text-align: center;
+        }
+
+        .itemContent {
+          padding-top: 50px;
+        }
+
+        .itemLinks {
+          flex-direction: column;
+          flex-wrap: wrap;
+        }
+      }
+    }
+
+    .firstHomePageBackground {
+      .backgroundImage {
+        width: 100%;
+        background-position: bottom right;
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .firstHomePage {
+    .firstHomePageContent {
+      .contentItem {
+        .itemLinks {
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+}
